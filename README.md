@@ -36,9 +36,13 @@ En la carpeta *public* se sitúa el archivo *index.html* con los elementos a mos
 
 # Clonar y levantar el servidor
 
-Al bajar el código, situarse al nivel del package.json y ejecutar los comandos siguientes dependiendo de lo que se desea hacer.
+Al bajar el código, situarse al nivel del package.json y descargar los módulos necesarios.
 
-Si se desea seguir desarrollando el código:
+`npm i`
+
+Para levantar el servidor ejecutar los comandos siguientes dependiendo de lo que se desea hacer.
+
+Si se desea seguir desarrollando:
 
 `npm run dev`
 
