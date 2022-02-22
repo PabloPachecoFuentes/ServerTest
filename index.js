@@ -31,7 +31,7 @@ const puerto = 3000;
  */
 
 app.get('/', (req, res, next) => {
-    //res.sendFile(path.join(__dirname, '/public/index.html'));
+    res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 app.get('/pag2', (req, res, next) => {
     //res.send('Método GET, devolviendo solamente una cadena de texto :D');
